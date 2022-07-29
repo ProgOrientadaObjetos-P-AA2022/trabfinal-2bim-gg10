@@ -1,3 +1,4 @@
+# LEONARDO CHUQUIMARCA Y JOSEPH MARTÍNEZ
 # Trabajo Final Segundo Bimestre
 
 * El siguiente trabajo se lo realizará de forma grupal (grupos de máximos dos personas). Cada estudiante clonará el repositorio de forma individual.

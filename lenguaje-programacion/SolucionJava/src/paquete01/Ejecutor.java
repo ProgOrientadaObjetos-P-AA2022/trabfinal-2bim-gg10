@@ -17,7 +17,7 @@ import paquete03.TipoPlanCelular;
 
 /**
  *
- * @author Usuario
+ * @author Leonardo Chuquimarca y Joseph Martínez
  */
 public class Ejecutor {
 

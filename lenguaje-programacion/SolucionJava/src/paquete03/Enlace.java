@@ -45,6 +45,7 @@ public class Enlace {
 
         try {
             establecerConexion();
+            plan1.calcularPagoMensual();
             Statement statement = obtenerConexion().createStatement();
             String data = String.format("INSERT INTO PlanPostPagoMinutos "
                     + "(nombrePropietario, cedulaPropietario, ciudadPropietario, "
@@ -113,6 +114,7 @@ public class Enlace {
 
         try {
             establecerConexion();
+            plan2.calcularPagoMensual();
             Statement statement = obtenerConexion().createStatement();
             String data = String.format("INSERT INTO PlanPostPagoMegas "
                     + "(nombrePropietario, cedulaPropietario, ciudadPropietario, "
@@ -176,6 +178,7 @@ public class Enlace {
 
         try {
             establecerConexion();
+            plan3.calcularPagoMensual();
             Statement statement = obtenerConexion().createStatement();
             String data = String.format("INSERT INTO PlanPostPagoMinutosMegas "
                     + "(nombrePropietario, cedulaPropietario, ciudadPropietario, "
@@ -242,6 +245,7 @@ public class Enlace {
 
         try {
             establecerConexion();
+            plan4.calcularPagoMensual();
             Statement statement = obtenerConexion().createStatement();
             String data = String.format("INSERT INTO PlanPostPagoMinutosMegasEconomico "
                     + "(nombrePropietario, cedulaPropietario, ciudadPropietario, "
